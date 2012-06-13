@@ -201,9 +201,9 @@
 
 
     <div class="step slide" data-x="2000" data-y="-1500">
-        <q>Portaudio</q>
-        <p>free, cross-platform, open-source, audio I/O library</p>
-        <a href="http://www.portaudio.com/">http://www.portaudio.com/</a>
+        <q>Why use Ruby?</q>
+        <p>Music composition in DSL</p>
+        <p>Metaprogramming music</p>
     </div>
     <!--
         
@@ -216,7 +216,8 @@
         
     -->
     <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <q>Ruby:</q>
+        <q>Portaudio</q>
+        <p>free, cross-platform, open-source, audio I/O library</p>
         <p>_why the lucky stiff wrote for hackety hack so that he could make classic 80's sounds for games.</p>
         <a href="https://github.com/whymirror/bloopsaphone">https://github.com/whymirror/bloopsaphone</a>
     </div>
@@ -230,13 +231,23 @@
         
     -->
     <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p><strong>SuperCollider</strong> was written by James McCartney</p>
-        <p>Great thing was that he had separated the language out from the server and just had an API, and let people explore other languages for it.</p>
+        <p><strong>SuperCollider</strong> by James McCartney</p>
+        <p>Real time sound synthesis server</p>
+        <p>It has it's own language but its separate from the server and connects through its API, let's people explore other languages for it.</p>
+        <img src="images/super.png" />
     </div>
 
     <!-- x = {SinOsc.ar(200)}.play
     x = {SinOsc.ar(MouseX.kr(100, 500))}.play
     x.free  -->
+
+    <div class="step" data-x="5000" data-y="1000" data-rotate="180" data-scale="1">
+        <img src="images/jimmy.png" />
+    </div>
+
+    <div class="step" data-x="5000" data-y="3000" data-rotate="180" data-scale="1">
+        <img src="images/jimmy2.png" />
+    </div>
 
     <div class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="1">
         <img src="images/scruby.png" />
@@ -359,9 +370,7 @@
     Just sayin' ;)
     
 -->
-<div class="hint">
-    <p>Start</p>
-</div>
+
 <script>
 if ("ontouchstart" in document.documentElement) { 
     document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
